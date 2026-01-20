@@ -1,0 +1,4 @@
+# Ignore everything by default. Keep what you want later with !path/to/filetokeep.pdf
+*
+!.gitignore
+!templates

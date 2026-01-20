@@ -1,0 +1,48 @@
+# Personal configuration (DO NOT COMMIT)
+config/config.yml
+
+# R specific
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Data files (NEVER COMMIT DATA)
+*.csv
+*.xlsx
+*.xls
+*.rds
+*.rda
+*.RData
+*.sav
+*.dta
+*.sas7bdat
+
+# Output directories
+outputs/
+results/
+cache/
+temp/
+
+# Reports with potentially sensitive content
+reports/archived/*.html
+reports/archived/*.pdf
+reports/archived/*.docx
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
+
+# Credentials and secrets
+.env
+.Renviron
+credentials.yml
+secrets.yml
