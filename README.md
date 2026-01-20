@@ -1,10 +1,10 @@
 # Demo: Research Analysis Code Repository
 
-A template repository for managing analysis code for projects where data lives on a secure shared drive and cannot be version controlled.
+A template repository for managing analysis code (primarily in R) for projects where data lives on a secure shared drive and cannot be version controlled.
 
 ## Purpose
 
-This repository contains all code for data import, cleaning, analysis, and report generation for `project_name`. The actual data remains on a secure shared drive and is **never** committed to version control. Be sure to check out the global [`.gitignore`](.gitignore) file here before reading on.
+This repository contains all R code for data import, cleaning, analysis, and report generation for `project_name`. The actual data remains on a secure shared drive and is **never** committed to version control. Be sure to check out the global [`.gitignore`](.gitignore) file here before reading on.
 
 ## The Problem This Solves
 
