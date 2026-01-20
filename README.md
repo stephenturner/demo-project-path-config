@@ -257,15 +257,19 @@ quarto::quarto_render(
 
 ### What Gets Committed
 
-✅ Code (`.R`, `.qmd`, `.Rmd`)  
-✅ Documentation (`.md`)  
-✅ Configuration templates (`.template.yml`)  
-✅ Non-sensitive report templates  
+- ✅ Code (`.R`, `.qmd`, `.Rmd`)  
+- ✅ Documentation (`.md`)  
+- ✅ Configuration templates (`.template.yml`)  
+- ✅ Non-sensitive report templates  
 
-❌ Data files (`.csv`, `.xlsx`, `.rds`)  
-❌ Your personal config (`config.yml`)  
-❌ Outputs with results (`outputs/`)  
-❌ Cache files (`.RData`, `.Rhistory`)  
+### What NEVER Gets Committed
+
+Make sure stuff here makes it into the project-level [`.gitignore`](.gitignore).
+
+- ❌ Data files (`.csv`, `.xlsx`, `.rds`)  
+- ❌ Your personal config (`config.yml`)  
+- ❌ Outputs with results (`outputs/`)  
+- ❌ Cache files (`.RData`, `.Rhistory`)  
 
 ## 🤝 Collaboration Workflow
 
